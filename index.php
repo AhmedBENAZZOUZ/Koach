@@ -94,9 +94,9 @@
             </ul>
           </li>
           <li><a href="services.html">Calendrier</a></li>
-          <li><a href="blog.html">Formateur</a></li>
           <li><a href="blog.html">Témoignages</a></li>
           <li><a href="contact.html">Contact & Infos</a></li>
+          <li><a href="blog.html" class="btn btn-outline-warning">séance privée</a></li>
         </ul>
       </nav><!-- .navbar -->
 
@@ -110,7 +110,7 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-6 text-center">
-            <h2 data-aos="fade-down">Bienveunue <span>à Koach</span></h2>
+            <h2 data-aos="fade-down">Bienvenue <span>à Koach</span></h2>
             <p data-aos="fade-up">Nous sommes un centre de formation fondée en 2015 specialisé en kinesiology </p>
             <!-- <a data-aos="fade-up" data-aos-delay="200" href="#get-started" class="btn-get-started">Get Started</a> -->
           </div>
@@ -146,42 +146,101 @@
 
         <div class="row justify-content-between gy-4">
 
-          <div class="col-lg-4 d-flex align-items-center pr-2" data-aos="fade-up">
-            <div class="card" style="width: 18rem; border: none; background-color: #f5f6f7;">
-              <h5 class="card-title d-flex justify-content-center">Kinesiology</h5>
-              <img class="card-img-top" src="assets/img/K.png" alt="Card image cap">
-              <div class="card-body">
-                <a href="#" class="btn btn-warning d-flex justify-content-center">Informations</a>
-              </div>
-            </div>
-
-          </div>
-          <div class="col-lg-4 d-flex align-items-center pr-2" data-aos="fade-up">
-            <div class="card" style="width: 18rem; border: none; background-color: #f5f6f7;">
-              <h5 class="card-title d-flex justify-content-center">Vente</h5>
-              <img class="card-img-top" src="assets/img/K.png" alt="Card image cap">
+          <div class="col-lg-4 d-flex align-items-center" data-aos="fade-up">
+            <div class="card"
+              style="width: 18rem; border: none; background-color: #f5f6f7; width: 220px; height: 200px;">
+              <h5 class="card-title d-flex justify-content-center">kinesiology</h5>
+              <img class="card-img-top" src="assets/img/kinesiology/relax-img.jpg" alt="Card image cap">
               <div class="card-body d-flex justify-content-center">
                 <a href="#" class="btn btn-warning ">Informations</a>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 d-flex align-items-center pr-2" data-aos="fade-up">
-            <div class="card-item">
-              <div class="row">
-                <div class="col-xl-5">
-                  <div class="card-bg" style="background-image: url();">
-                  <img src="assets/img/K.png" alt="" width="180px" height="180px">
-                  </div>
-                </div>
-                <div class="col-xl-7 d-flex align-items-center">
-                  <div class="card-body">
-                    <h4 class="card-title">Enneagramme</h4>
-                    <p>Fuga in dolorum et iste et culpa. Commodi possimus nesciunt modi voluptatem placeat deleniti
-                      adipisci. Cum delectus doloribus non veritatis. Officia temporibus illo magnam. Dolor eos et.</p>
-                      <a href="#" class="btn btn-warning ">Informations</a>
-                  </div>
-                </div>
+          <div class="col-lg-4 d-flex align-items-center" data-aos="fade-up">
+            <div class="card"
+              style="width: 18rem; border: none; background-color: #f5f6f7; width: 220px; height: 200px;">
+              <h5 class="card-title d-flex justify-content-center">Enneagramme</h5>
+              <img class="card-img-top" src="assets/img/Enneagramme/cercle.png" alt="Card image cap">
+              <div class="card-body d-flex justify-content-center">
+                <a href="#" class="btn btn-warning ">Informations</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 d-flex align-items-center" data-aos="fade-up">
+            <div class="card"
+              style="width: 18rem; border: none; background-color: #f5f6f7; width: 220px; height: 200px;">
+              <h5 class="card-title d-flex justify-content-center">Vente</h5>
+              <img class="card-img-top" src="assets/img/Vente/vente.jpg" alt="Card image cap">
+              <div class="card-body d-flex justify-content-center">
+                <a href="#" class="btn btn-warning ">Informations</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 d-flex align-items-center" style="margin-top: 8rem;" data-aos="fade-up">
+            <div class="card"
+              style="width: 18rem; border: none; background-color: #f5f6f7; width: 220px; height: 200px;">
+              <h5 class="card-title d-flex justify-content-center">Management</h5>
+              <img class="card-img-top" src="assets/img/Management/management.png" alt="Card image cap">
+              <div class="card-body d-flex justify-content-center">
+                <a href="#" class="btn btn-warning ">Informations</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 d-flex align-items-center" style="margin-top: 8rem;" data-aos="fade-up">
+            <div class="card"
+              style="width: 18rem; border: none; background-color: #f5f6f7; width: 220px; height: 200px;">
+              <h5 class="card-title d-flex justify-content-center">Team building</h5>
+              <img class="card-img-top" src="assets/img/TB/tb.png" alt="Card image cap">
+              <div class="card-body d-flex justify-content-center">
+                <a href="#" class="btn btn-warning ">Informations</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 d-flex align-items-center" style="margin-top: 8rem;" data-aos="fade-up">
+            <div class="card"
+              style="width: 18rem; border: none; background-color: #f5f6f7; width: 220px; height: 200px;">
+              <h5 class="card-title d-flex justify-content-center">Soft Skills</h5>
+              <img class="card-img-top" src="assets/img/Soft skills/soft-skills.png" alt="Card image cap">
+              <div class="card-body d-flex justify-content-center">
+                <a href="#" class="btn btn-warning ">Informations</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 d-flex align-items-center" style="margin-top: 8rem;" data-aos="fade-up">
+            <div class="card"
+              style="width: 18rem; border: none; background-color: #f5f6f7; width: 220px; height: 200px;">
+              <h5 class="card-title d-flex justify-content-center">Coaching</h5>
+              <img class="card-img-top" src="assets/img/Coaching/coaching.png" alt="Card image cap">
+              <div class="card-body d-flex justify-content-center">
+                <a href="#" class="btn btn-warning ">Informations</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 d-flex align-items-center" style="margin-top: 8rem;" data-aos="fade-up">
+            <div class="card"
+              style="width: 18rem; border: none; background-color: #f5f6f7; width: 220px; height: 200px;">
+              <h5 class="card-title d-flex justify-content-center">Formation en RH</h5>
+              <img class="card-img-top" src="assets/img/RH/rh.jpg" alt="Card image cap">
+              <div class="card-body d-flex justify-content-center">
+                <a href="#" class="btn btn-warning ">Informations</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 d-flex align-items-center" style="margin-top: 8rem;" data-aos="fade-up">
+            <div class="card"
+              style="width: 18rem; border: none; background-color: #f5f6f7; width: 220px; height: 200px;">
+              <h5 class="card-title d-flex justify-content-center">Consulting</h5>
+              <img class="card-img-top" src="assets/img/Consulting/consulting.jpg" alt="Card image cap">
+              <div class="card-body d-flex justify-content-center">
+                <a href="#" class="btn btn-warning ">Informations</a>
               </div>
             </div>
           </div>
@@ -227,88 +286,109 @@
     </section><!-- End Get Started Section -->
 
     <!-- ======= Constructions Section ======= -->
-    <section id="constructions" class="constructions">
+    <section id="testimonials" class="testimonials">
       <div class="container" data-aos="fade-up">
 
         <div class="section-header">
-          <h2>Constructions</h2>
-          <p>Nulla dolorum nulla nesciunt rerum facere sed ut inventore quam porro nihil id ratione ea sunt quis dolorem
-            dolore earum</p>
+          <h2>Testimonials</h2>
+          <p>Quam sed id excepturi ccusantium dolorem ut quis dolores nisi llum nostrum enim velit qui ut et autem uia
+            reprehenderit sunt deleniti</p>
         </div>
 
-        <div class="row gy-4">
+        <div class="slides-2 swiper">
+          <div class="swiper-wrapper">
 
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="card-item">
-              <div class="row">
-                <div class="col-xl-5">
-                  <div class="card-bg" style="background-image: url(assets/img/constructions-1.jpg);"></div>
-                </div>
-                <div class="col-xl-7 d-flex align-items-center">
-                  <div class="card-body">
-                    <h4 class="card-title">Eligendi omnis sunt veritatis.</h4>
-                    <p>Fuga in dolorum et iste et culpa. Commodi possimus nesciunt modi voluptatem placeat deleniti
-                      adipisci. Cum delectus doloribus non veritatis. Officia temporibus illo magnam. Dolor eos et.</p>
-                  </div>
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
                 </div>
               </div>
-            </div>
-          </div><!-- End Card Item -->
+            </div><!-- End testimonial item -->
 
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="card-item">
-              <div class="row">
-                <div class="col-xl-5">
-                  <div class="card-bg" style="background-image: url(assets/img/constructions-2.jpg);"></div>
-                </div>
-                <div class="col-xl-7 d-flex align-items-center">
-                  <div class="card-body">
-                    <h4 class="card-title">Possimus ut sed velit assumenda</h4>
-                    <p>Sunt deserunt maiores voluptatem autem est rerum perferendis rerum blanditiis. Est laboriosam qui
-                      iste numquam laboriosam voluptatem architecto. Est laudantium sunt at quas aut hic. Eum
-                      dignissimos.</p>
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                  <h3>Sara Wilsson</h3>
+                  <h4>Designer</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                      class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                   </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis
+                    quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
                 </div>
               </div>
-            </div>
-          </div><!-- End Card Item -->
+            </div><!-- End testimonial item -->
 
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="card-item">
-              <div class="row">
-                <div class="col-xl-5">
-                  <div class="card-bg" style="background-image: url(assets/img/constructions-3.jpg);"></div>
-                </div>
-                <div class="col-xl-7 d-flex align-items-center">
-                  <div class="card-body">
-                    <h4 class="card-title">Error beatae dolor inventore aut</h4>
-                    <p>Dicta porro nobis. Velit cum in. Nesciunt dignissimos enim molestiae facilis numquam quae quaerat
-                      ipsam omnis. Neque debitis ipsum at architecto officia laboriosam odit. Ut sunt temporibus nulla
-                      culpa.</p>
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                  <h3>Jena Karlis</h3>
+                  <h4>Store Owner</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                      class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                   </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim
+                    tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
                 </div>
               </div>
-            </div>
-          </div><!-- End Card Item -->
+            </div><!-- End testimonial item -->
 
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="card-item">
-              <div class="row">
-                <div class="col-xl-5">
-                  <div class="card-bg" style="background-image: url(assets/img/constructions-4.jpg);"></div>
-                </div>
-                <div class="col-xl-7 d-flex align-items-center">
-                  <div class="card-body">
-                    <h4 class="card-title">Expedita voluptas ut ut nesciunt</h4>
-                    <p>Aut est quidem doloremque voluptatem magnam quis excepturi vero quia. Eum eos doloremque
-                      architecto illo at beatae dolore. Fugiat suscipit et sint ratione dolores. Aut aliquid ea dolores
-                      libero nobis.</p>
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                  <h3>Matt Brandon</h3>
+                  <h4>Freelancer</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                      class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                   </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit
+                    minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
                 </div>
               </div>
-            </div>
-          </div><!-- End Card Item -->
+            </div><!-- End testimonial item -->
 
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                  <h3>John Larson</h3>
+                  <h4>Entrepreneur</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                      class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim
+                    culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum
+                    quid.
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
         </div>
 
       </div>
@@ -1149,6 +1229,7 @@
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.js"></script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
