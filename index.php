@@ -78,11 +78,11 @@
           <li class="dropdown"><a href="#"><span>Cours/Formation</span> </a>
             <ul>
               <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i
+              <li class="dropdown"><a href="#"><span>Devenir Consultant</span> <i
                     class="bi bi-chevron-right dropdown-indicator"></i></a>
                 <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="tfh.html">Consultant TFH</a></li>
+                  <li><a href="brain-gym.html">Brain Gym</a></li>
                   <li><a href="#">Deep Dropdown 3</a></li>
                   <li><a href="#">Deep Dropdown 4</a></li>
                   <li><a href="#">Deep Dropdown 5</a></li>
