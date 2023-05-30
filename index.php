@@ -46,7 +46,7 @@
   <header id="header" class="header d-flex align-items-center">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
-      <a href="index.html" class="logo d-flex align-items-center">
+      <a href="index.php" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
         <h1><img src="assets/img/logo-KOACH.png" alt=""><!-- <span>.</span>--></h1>
@@ -56,10 +56,10 @@
       <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="index.php" class="active">Home</a></li>
           <li class="dropdown"><a href="#"><span>Koach</span> </a>
             <ul>
-              <li><a href="about.html">Histoire Koach</a></li>
+              <li><a href="about.php">Histoire Koach</a></li>
               <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i
                     class="bi bi-chevron-right dropdown-indicator"></i></a>
                 <ul>
@@ -81,8 +81,8 @@
               <li class="dropdown"><a href="#"><span>Devenir Consultant</span> <i
                     class="bi bi-chevron-right dropdown-indicator"></i></a>
                 <ul>
-                  <li><a href="tfh.html">Consultant TFH</a></li>
-                  <li><a href="brain-gym.html">Brain Gym</a></li>
+                  <li><a href="tfh.php">Consultant TFH</a></li>
+                  <li><a href="brain-gym.php">Brain Gym</a></li>
                   <li><a href="#">Deep Dropdown 3</a></li>
                   <li><a href="#">Deep Dropdown 4</a></li>
                   <li><a href="#">Deep Dropdown 5</a></li>
@@ -93,10 +93,10 @@
               <li><a href="#">Dropdown 4</a></li>
             </ul>
           </li>
-          <li><a href="services.html">Calendrier</a></li>
-          <li><a href="blog.html">Témoignages</a></li>
-          <li><a href="contact.html">Contact & Infos</a></li>
-          <li><a href="blog.html" class="btn btn-outline-warning">séance privée</a></li>
+          <li><a href="services.php">Calendrier</a></li>
+          <li><a href="blog.php">Témoignages</a></li>
+          <li><a href="contact.php">Contact & Infos</a></li>
+          <li><a href="blog.php" class="btn btn-outline-warning">séance privée</a></li>
         </ul>
       </nav><!-- .navbar -->
 
@@ -414,7 +414,7 @@
               <h3>Nesciunt Mete</h3>
               <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis
                 tempore et consequatur.</p>
-              <a href="service-details.html" class="readmore stretched-link">Learn more <i
+              <a href="service-details.php" class="readmore stretched-link">Learn more <i
                   class="bi bi-arrow-right"></i></a>
             </div>
           </div><!-- End Service Item -->
@@ -427,7 +427,7 @@
               <h3>Eosle Commodi</h3>
               <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut
                 nesciunt dolorem.</p>
-              <a href="service-details.html" class="readmore stretched-link">Learn more <i
+              <a href="service-details.php" class="readmore stretched-link">Learn more <i
                   class="bi bi-arrow-right"></i></a>
             </div>
           </div><!-- End Service Item -->
@@ -440,7 +440,7 @@
               <h3>Ledo Markt</h3>
               <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci
                 eos earum corrupti.</p>
-              <a href="service-details.html" class="readmore stretched-link">Learn more <i
+              <a href="service-details.php" class="readmore stretched-link">Learn more <i
                   class="bi bi-arrow-right"></i></a>
             </div>
           </div><!-- End Service Item -->
@@ -453,7 +453,7 @@
               <h3>Asperiores Commodit</h3>
               <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident
                 adipisci neque.</p>
-              <a href="service-details.html" class="readmore stretched-link">Learn more <i
+              <a href="service-details.php" class="readmore stretched-link">Learn more <i
                   class="bi bi-arrow-right"></i></a>
             </div>
           </div><!-- End Service Item -->
@@ -466,7 +466,7 @@
               <h3>Velit Doloremque</h3>
               <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem
                 alias eius labore.</p>
-              <a href="service-details.html" class="readmore stretched-link">Learn more <i
+              <a href="service-details.php" class="readmore stretched-link">Learn more <i
                   class="bi bi-arrow-right"></i></a>
             </div>
           </div><!-- End Service Item -->
@@ -479,7 +479,7 @@
               <h3>Dolori Architecto</h3>
               <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti
                 recusandae ducimus enim.</p>
-              <a href="service-details.html" class="readmore stretched-link">Learn more <i
+              <a href="service-details.php" class="readmore stretched-link">Learn more <i
                   class="bi bi-arrow-right"></i></a>
             </div>
           </div><!-- End Service Item -->
@@ -708,7 +708,7 @@
                   <a href="assets/img/projects/remodeling-1.jpg" title="Remodeling 1"
                     data-gallery="portfolio-gallery-remodeling" class="glightbox preview-link"><i
                       class="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" class="details-link"><i
+                  <a href="project-details.php" title="More Details" class="details-link"><i
                       class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
@@ -723,7 +723,7 @@
                   <a href="assets/img/projects/construction-1.jpg" title="Construction 1"
                     data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i
                       class="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" class="details-link"><i
+                  <a href="project-details.php" title="More Details" class="details-link"><i
                       class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
@@ -737,7 +737,7 @@
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
                   <a href="assets/img/projects/repairs-1.jpg" title="Repairs 1" data-gallery="portfolio-gallery-repairs"
                     class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" class="details-link"><i
+                  <a href="project-details.php" title="More Details" class="details-link"><i
                       class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
@@ -751,7 +751,7 @@
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
                   <a href="assets/img/projects/design-1.jpg" title="Repairs 1" data-gallery="portfolio-gallery-book"
                     class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" class="details-link"><i
+                  <a href="project-details.php" title="More Details" class="details-link"><i
                       class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
@@ -766,7 +766,7 @@
                   <a href="assets/img/projects/remodeling-2.jpg" title="Remodeling 2"
                     data-gallery="portfolio-gallery-remodeling" class="glightbox preview-link"><i
                       class="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" class="details-link"><i
+                  <a href="project-details.php" title="More Details" class="details-link"><i
                       class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
@@ -781,7 +781,7 @@
                   <a href="assets/img/projects/construction-2.jpg" title="Construction 2"
                     data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i
                       class="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" class="details-link"><i
+                  <a href="project-details.php" title="More Details" class="details-link"><i
                       class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
@@ -795,7 +795,7 @@
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
                   <a href="assets/img/projects/repairs-2.jpg" title="Repairs 2" data-gallery="portfolio-gallery-repairs"
                     class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" class="details-link"><i
+                  <a href="project-details.php" title="More Details" class="details-link"><i
                       class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
@@ -809,7 +809,7 @@
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
                   <a href="assets/img/projects/design-2.jpg" title="Repairs 2" data-gallery="portfolio-gallery-book"
                     class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" class="details-link"><i
+                  <a href="project-details.php" title="More Details" class="details-link"><i
                       class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
@@ -824,7 +824,7 @@
                   <a href="assets/img/projects/remodeling-3.jpg" title="Remodeling 3"
                     data-gallery="portfolio-gallery-remodeling" class="glightbox preview-link"><i
                       class="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" class="details-link"><i
+                  <a href="project-details.php" title="More Details" class="details-link"><i
                       class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
@@ -839,7 +839,7 @@
                   <a href="assets/img/projects/construction-3.jpg" title="Construction 3"
                     data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i
                       class="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" class="details-link"><i
+                  <a href="project-details.php" title="More Details" class="details-link"><i
                       class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
@@ -853,7 +853,7 @@
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
                   <a href="assets/img/projects/repairs-3.jpg" title="Repairs 2" data-gallery="portfolio-gallery-repairs"
                     class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" class="details-link"><i
+                  <a href="project-details.php" title="More Details" class="details-link"><i
                       class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
@@ -867,7 +867,7 @@
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
                   <a href="assets/img/projects/design-3.jpg" title="Repairs 3" data-gallery="portfolio-gallery-book"
                     class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" class="details-link"><i
+                  <a href="project-details.php" title="More Details" class="details-link"><i
                       class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
@@ -1038,7 +1038,7 @@
 
               <hr>
 
-              <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i
+              <a href="blog-details.php" class="readmore stretched-link"><span>Read More</span><i
                   class="bi bi-arrow-right"></i></a>
 
             </div>
@@ -1070,7 +1070,7 @@
 
               <hr>
 
-              <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i
+              <a href="blog-details.php" class="readmore stretched-link"><span>Read More</span><i
                   class="bi bi-arrow-right"></i></a>
 
             </div>
@@ -1102,7 +1102,7 @@
 
               <hr>
 
-              <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i
+              <a href="blog-details.php" class="readmore stretched-link"><span>Read More</span><i
                   class="bi bi-arrow-right"></i></a>
 
             </div>
