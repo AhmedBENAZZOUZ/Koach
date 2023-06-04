@@ -77,7 +77,7 @@
           </li>
           <li class="dropdown"><a href="#"><span>Cours/Formation</span> </a>
             <ul>
-              <li><a href="#">Dropdown 1</a></li>
+              <li><a href="cour-branche.php">Cours par branche</a></li>
               <li class="dropdown"><a href="#"><span>Devenir Consultant</span> <i
                     class="bi bi-chevron-right dropdown-indicator"></i></a>
                 <ul>
