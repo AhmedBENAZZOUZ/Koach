@@ -290,9 +290,8 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-header">
-          <h2>Testimonials</h2>
-          <p>Quam sed id excepturi ccusantium dolorem ut quis dolores nisi llum nostrum enim velit qui ut et autem uia
-            reprehenderit sunt deleniti</p>
+          <h2>NOS RÉFÉRENCES</h2>
+          <p>Ils nous font confiance</p>
         </div>
 
         <div class="slides-2 swiper">
@@ -318,8 +317,7 @@
                   </div>
                   <p>
                     <i class="bi bi-quote quote-icon-left"></i>
-                    Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis
-                    quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                    <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
                     <i class="bi bi-quote quote-icon-right"></i>
                   </p>
                 </div>
