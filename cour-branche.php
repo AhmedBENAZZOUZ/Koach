@@ -38,6 +38,16 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+  <style>
+    .collapsible ul {
+      display: none;
+    }
+
+    .collapsible.open ul {
+      display: block;
+    }
+  </style>
+
 </head>
 
 <body>
@@ -123,68 +133,70 @@
     <section id="about" class="about">
       <div class="row gy-4">
 
-        <div class="container col-lg-1" style="margin-left:130px;" data-aos="fade-up">
-          <div class="flex-shrink-0 p-3 bg-white" style="width: 280px;">
-            <a href="/" class="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom">
-              <!-- <svg class="bi me-2" width="30" height="24">
-                <use xlink:href="#bootstrap"></use>
-              </svg> -->
-              <span class="fs-5 fw-semibold">Cours</span>
-            </a>
-            <ul class="list-unstyled ps-0">
-              <li class="mb-1">
-                <button class="btn btn-toggle align-items-center rounded collapsed fs-7 fw-bold"
-                  data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
-                  <i class="bi bi-chevron-right dropdown-indicator"></i> Découverte
-                </button>
-                <div class="collapse show" id="home-collapse">
-                  <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                    <li><a href="#" class="link-dark rounded">Equilibration par les couleurs</a></li>
-                    <li><a href="#" class="link-dark rounded">Updates</a></li>
-                    <li><a href="#" class="link-dark rounded">Reports</a></li>
-                  </ul>
-                </div>
+        <div class="container col-lg-2" style="margin-left:250px;" data-aos="fade-up">
+          <div class="sidebar card py-2 mb-4"
+            style="border-radius:0; border-bottom-style: none;border-left-style: none;border-top-style: none;">
+            <ul class="nav flex-column" id="nav_accordion">
+              <li class="nav-item">
+                <a class="nav-link text-muted" href="#"> Cours </a>
               </li>
-              <li class="mb-1">
-                <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
-                  data-bs-target="#dashboard-collapse" aria-expanded="false">
-                  <i class="bi bi-chevron-right dropdown-indicator"></i> Dashboard
-                </button>
-                <div class="collapse" id="dashboard-collapse">
-                  <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                    <li><a href="#" class="link-dark rounded">Overview</a></li>
-                    <li><a href="#" class="link-dark rounded">Weekly</a></li>
-                    <li><a href="#" class="link-dark rounded">Monthly</a></li>
-                    <li><a href="#" class="link-dark rounded">Annually</a></li>
-                  </ul>
-                </div>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="collapse" data-bs-target="#menu_item1" href="#">
+                  <i class="bi bi-chevron-right dropdown-indicator"></i> Submenu links </a>
+                <ul id="menu_item1" class="submenu collapse" data-bs-parent="#nav_accordion">
+                  <li><a class="nav-link" href="#">Submenu item 1 </a></li>
+                  <li><a class="nav-link" href="#">Submenu item 2 </a></li>
+                  <li><a class="nav-link" href="#">Submenu item 3 </a> </li>
+                </ul>
+
               </li>
-              <li class="mb-1">
-                <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
-                  data-bs-target="#orders-collapse" aria-expanded="false">
-                  <i class="bi bi-chevron-right dropdown-indicator"></i> Orders
-                </button>
-                <div class="collapse" id="orders-collapse">
-                  <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                    <li><a href="#" class="link-dark rounded">New</a></li>
-                    <li><a href="#" class="link-dark rounded">Processed</a></li>
-                    <li><a href="#" class="link-dark rounded">Shipped</a></li>
-                    <li><a href="#" class="link-dark rounded">Returned</a></li>
-                  </ul>
-                </div>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="collapse" data-bs-target="#menu_item2" href="#">
+                  More menus <i class="bi small bi-caret-down-fill"></i> </a>
+                <ul id="menu_item2" class="submenu collapse" data-bs-parent="#nav_accordion">
+                  <li><a class="nav-link" href="#">Submenu item 4 </a></li>
+                  <li><a class="nav-link" href="#">Submenu item 5 </a></li>
+                  <li><a class="nav-link" href="#">Submenu item 6 </a></li>
+                  <li><a class="nav-link" href="#">Submenu item 6 </a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"> Another page </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"> Demo link </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"> Menu item </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"> Something </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"> Other link </a>
               </li>
             </ul>
           </div>
           <!-- Vertical line --><!-- <div class="vertical-line" style="width: 2px;height: 200px;background-color: #000;margin: 0 auto;"></div> -->
         </div>
-        <div class="container col-lg-9" style="margin-left:130px;" data-aos="fade-up">
-          <h2 class="mb-5">Equilibration par les couleurs</h2>
-          <p>Son but : équilibrer notre énergie et gérer nos émotions par une technique simple et très efficace (les
-            couleurs). <br>C’est le cours idéal pour faire connaissance avec la kinésiologie. <br>
-            Ce cours apporte un excellent complément au TFH.</p>
-            <p class="mb-1"><span class="fw-bold">Prérequis : </span>aucun</p>
-            <p class="mb-1"><span class="fw-bold">Durée : </span>3H (Une matinée)</p>
-            <p><span class="fw-bold">Prix : </span>190 TND</p>
+        <div class="container col-lg-8" style="margin-left:10px;" data-aos="fade-up">
+          <p>KOACH propose des cours :</p>
+          <ol>
+            <li>de Kinésiology,</li>
+            <li>des Pratiques supervisées et examens en kinésiologie,</li>
+            <li>des Cours complémentaires en Sciences (Anatomie, Nutrition, Premiers Secours…),</li>
+            <li>des cours d’EFT et Tapping,</li>
+            <li>et d’autres cours hors Kinésiologie (Analyse Transactionnelle, Psychogénéalogie, …).</li>
+          </ol>
+          <p>Vous trouvez tous ces cours classés par branche dans le menu de gauche.</p>
+          <h3>Inscription</h3>
+          <p>Pour vous inscrire à un cours, merci d’utiliser les formulaires attachés à chaque cours :</p>
+          <ol>
+            <li>Choisissez le cours auquel vous désirez vous inscrire et la date qui vous convient dans le menu ou le
+              calendrier, cliquez sur le titre du cours pour ouvrir le formulaire d’inscription.</li>
+          </ol>
+          <p><a href="">Assurez-vous d’avoir lu les Conditions Générales</a> qui précisent les modalités de paiement,
+            les conditions d’annulation,…</p>
         </div>
 
       </div>
@@ -302,6 +314,17 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script>
+    window.addEventListener('DOMContentLoaded', function () {
+      var collapsibleItems = document.querySelectorAll('.collapsible');
+
+      for (var i = 0; i < collapsibleItems.length; i++) {
+        collapsibleItems[i].addEventListener('click', function () {
+          this.classList.toggle('open');
+        });
+      }
+    });
+  </script>
 
 </body>
 
