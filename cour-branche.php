@@ -142,9 +142,9 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" data-bs-toggle="collapse" data-bs-target="#menu_item1" href="#">
-                  <i class="bi bi-chevron-right dropdown-indicator"></i> Submenu links </a>
+                  <i class="bi bi-chevron-right dropdown-indicator"></i> Découverte </a>
                 <ul id="menu_item1" class="submenu collapse" data-bs-parent="#nav_accordion">
-                  <li><a class="nav-link" href="#">Submenu item 1 </a></li>
+                  <li><a class="nav-link" href="Cours/equilibration.php">Equilibration par les couleurs </a></li>
                   <li><a class="nav-link" href="#">Submenu item 2 </a></li>
                   <li><a class="nav-link" href="#">Submenu item 3 </a> </li>
                 </ul>
@@ -152,7 +152,7 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" data-bs-toggle="collapse" data-bs-target="#menu_item2" href="#">
-                  More menus <i class="bi small bi-caret-down-fill"></i> </a>
+                  More menus  </a>
                 <ul id="menu_item2" class="submenu collapse" data-bs-parent="#nav_accordion">
                   <li><a class="nav-link" href="#">Submenu item 4 </a></li>
                   <li><a class="nav-link" href="#">Submenu item 5 </a></li>
